@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/js.js"></script>
+    <title>Welcome page</title>
+</head>
+
+<body>
+    <h1>WEB course</h1>
+    <h2>Practical work 2</h2>
+    <p>The aim of this practical course is to acquire basic knowledge of HTML, CSS and Javascript.</p>
+    <button onclick="darkMode()">Toggle dark mode</button>
+    <h3>Grid / flex display</h3>
+    <input type="text" id="number-input" name="number-input" placeholder="have fun" disabled>
+    <button type="button" id="toggle-switch" onclick="switchFlex(this)">grid</button>
+    <div class="grid-container">
+        <button type="button" class="grid-item" onclick="numbering(this)">1</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">2</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">3</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">4</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">5</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">6</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">7</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">8</button>
+        <button type="button" class="grid-item" onclick="numbering(this)">9</button>
+        <button type="button" id="grid-zero" class="grid-item" onclick="numbering(this)">0</button>
+    </div>
+    <p><i>Italic</i><b>Bold</b><u>Underlined</u></p>
+    <p>If you want to watch a cute koala video, <a href="https://www.youtube.com/watch?v=vvmMxju9xNE"
+            title="Cute koala video" target="_blank" class="bold">click here</a></p>
+    <p>Here's potatoes : </p>
+    <img alt="Smiling potatoes" src="./src/img/potato.jpg" />
+</body>
+
+</html>

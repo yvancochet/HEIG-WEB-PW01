@@ -1,0 +1,83 @@
+body {
+    background-color: #fff;
+    color: #212121;
+    font-family: Arial;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+a {
+    color: #a47bea;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7c4dff;
+}
+
+a:hover {
+    color: #7c4dff;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    text-align: center;
+    border: 0.2em solid #46c79c;
+    border-radius: 2em;
+    padding: 0.4em;
+    font-size: 1em;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: #a47bea;
+}
+
+button:active {
+    border-color: #7c4dff;
+}
+
+.dark-mode {
+    background-color: #1b1b1b;
+    color: #bec1c6;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.grid-container {
+    margin: 0 auto;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 1em;
+    border: 0.5em solid #46c79c;
+    border-radius: 2em;
+    font-weight: bolder;
+    font-size: 1.5em;
+    width: 4em;
+    height: 4em;
+}
+
+#grid-zero {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#number-input {
+    background-color: inherit;
+    font-size: 1.5em;
+    color: inherit;
+    border: 0.1em solid #46c79c;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
